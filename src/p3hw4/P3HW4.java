@@ -24,7 +24,7 @@ public class P3HW4 extends Application{
         Map<String, Pane> mapPanes = new TreeMap<>();
         mapPanes.put("TableView", paneTableView);
         mapPanes.put("TableView2", paneTableView2);
-        Scene scene = new Scene(mapPanes.get("TableView"));
+        Scene scene = new Scene(mapPanes.get("TableView2"));
         primaryStage.setTitle("Chapter 4 Homework");
         primaryStage.setScene(scene);
         primaryStage.show();
